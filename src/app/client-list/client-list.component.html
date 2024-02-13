@@ -1,0 +1,22 @@
+<h2>Clientes</h2>
+<button [routerLink]="'add'"> Agregar nuevo cliente</button>
+<table>
+    <thead>
+        <th>ID</th>
+        <th>ESTATUS<th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product for products">
+             <td>{{product.name}}</td>
+        </tr>
+
+    </tbody>
+    
+</table>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
